@@ -1,10 +1,14 @@
-# nmapAuto
-Open a terminal in the nmapAuto folder
-Run "sudo bash requirements.sh"
-Run "sudo ./runNmap.sh"
-Thats it
+# nmapAuto | credit to Thiago Pires (https://medium.com/@thiagopires_33005)
+This app requires you to use a Linux distribution. 
 
-How it works
+If you're watching my presentation, we'll be using Kali Linux since it comes pre-packaged with a ton of common and useful cybersecurity tools and is beginner-friendly. For advanced Linux users, my most-recommended Linux distribution is Arch if you feel comfortable manually installing all of your apps and tools. 
+
+1. Open a terminal in the 'app' folder
+2. Run "sudo bash requirements.sh"
+3. Run "sudo ./runNmap.sh"
+4. Thats it!
+
+HOW IT WORKS
 
 Automated Subnet Scanning: The script starts by identifying your subnet and finding live hosts.
 
@@ -17,4 +21,5 @@ Dynamic Rate Limiting: Customizable rate limiting based on the target's sensitiv
 Structured Output: All scan results are saved in subdirectories, organized by date and time, including XML files for further analysis.
 
 Audit Logging: An audit log is generated for accountability, tracking who initiated the scan and when.
-https://www.youtube.com/watch?v=ycRVXsn7IC8&feature=youtu.be
+
+Video: https://www.youtube.com/watch?v=ycRVXsn7IC8&feature=youtu.be
