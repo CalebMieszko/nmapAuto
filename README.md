@@ -3,7 +3,10 @@ This app requires you to use a Linux distribution.
 
 If you're watching my presentation, we'll be using Kali Linux since it comes pre-packaged with a ton of common and useful cybersecurity tools and is beginner-friendly. For advanced Linux users, my most-recommended Linux distribution is Arch if you feel comfortable manually installing all of your apps and tools. 
 
-1. Open a terminal in the 'app' folder
+1. Open a terminal in the 'app' folder 
+ - You can do this with a command like 'cd app' if you're in the nmapauto folder instead
+ - You can tell where you are by running pwd
+    - That stands for path within directory and will show you in the terminal which folder you're in
 2. Run "sudo bash requirements.sh"
 3. Run "sudo ./runNmap.sh"
 4. Thats it!
